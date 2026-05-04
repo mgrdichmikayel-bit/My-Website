@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap');
+body {
+    font-family: 'Cairo', sans-serif;
+    background: #f5f7fa;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background: linear-gradient(to right, #0e022a, #45779d);
+}
+
+.navbar a {
+    color: white !important;
+}
+
+
+/* Hero */
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+
+/* Cards */
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+} 
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+/* Buttons */
+
+.btn-primary {
+    background: #84121b;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #d62828;
+}
+
+
+/* Footer */
+
+.footer {
+    background: #1d3557;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* Section Title */
+
+.section-title {
+    border-right: 5px solid #e63946;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}

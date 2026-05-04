@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>الرئيسية</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ملف CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+        .navbar {
+            background-color: #343a40;
+        }
+        
+        .nav-link {
+            color: white !important;
+        }
+        
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        
+        .section-title {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        
+        img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white">دليل الفعاليات</a>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">الفعاليات</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">عن الدليل</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="images/10614246f1bcf71fbe62d74bfe9c685e.jpg" class="d-block w-100" style="height: 400px;">
+                <div class="carousel-caption">
+                    <h1>اكتشف أفضل الفعاليات</h1>
+                    <p>حفلات موسيقية مميزة</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="images/c6b2e3a74394149cf347ab7c251890de.jpg" class="d-block w-100" style="height: 400px;">
+                <div class="carousel-caption">
+                    <h1>ماراثونات ونشاطات رياضية</h1>
+                    <p>شارك في التحدي</p>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="images/image22.jpg" class="d-block w-100" style="height: 400px;">
+                <div class="carousel-caption">
+                    <h1>فعاليات ثقافية</h1>
+                    <p>معارض وكتب</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+    <!-- Featured Events -->
+    <div class="container mt-5">
+        <h3 class="section-title">فعاليات مميزة</h3>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/10614246f1bcf71fbe62d74bfe9c685e.jpg">
+                    <div class="card-body">
+                        <h5>حفلة موسيقية</h5>
+                        <p>حفلة رائعة</p>
+                        <a href="event.html?id=1" class="btn btn-primary">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/c6b2e3a74394149cf347ab7c251890de.jpg">
+                    <div class="card-body">
+                        <h5>ماراثون</h5>
+                        <p>مسابقة سنوية</p>
+                        <a href="event.html?id=2" class="btn btn-primary">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/image22.jpg">
+                    <div class="card-body">
+                        <h5>حدث ثقافي</h5>
+                        <p>معرض الكتاب</p>
+                        <a href="event.html?id=3" class="btn btn-primary">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <p>© 2026 دليل الفعاليات - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>عن الموقع</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white">دليل الفعاليات</a>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">الفعاليات</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">عن الدليل</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <h2 class="section-title">عن الدليل</h2>
+
+        <p>.يُعدّ هذا الموقع دليلًا رقميًا متكاملًا لفعاليات الجامعة الافتراضية، حيث يهدف إلى جمع وتنظيم مختلف الأنشطة والفعاليات الأكاديمية والثقافية في مكان واحد، بما يسهّل على الطلاب الوصول إلى المعلومات بسرعة ووضوح.
+هدف الدليل يتمثل في توفير منصة موثوقة تساعد الطلاب على متابعة أحدث الفعاليات، والتخطيط للمشاركة فيها بطريقة فعّالة، مما يعزز من تجربتهم الجامعية.
+رؤية الدليل هي أن يكون المرجع الأول للفعاليات الجامعية، وأن يساهم في خلق بيئة تفاعلية تربط بين الطلاب والأنشطة المختلفة داخل الجامعة.
+رسالة المنصة تتمحور حول دعم المجتمع الطلابي من خلال نشر المعرفة، وتشجيع المشاركة، وتعزيز التواصل بين أفراد الجامعة، بما يسهم في بناء تجربة تعليمية أكثر حيوية وتكاملًا.
+
+        <div class="row mt-4">
+
+            <div class="col-md-3 text-center">
+                
+                <h5>raneem</h5>
+                <p>269130</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+                
+                <h5>mike</h5>
+                <p>285354</p>
+            </div>
+
+            <div class="col-md-3 text-center">
+                
+                <h5>sara</h5>
+                <p>293245</p>
+            </div>
+
+             <div class="col-md-3 text-center">
+                
+                <h5>sedra</h5>
+                <p>295130</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <p>© 2026 دليل الفعاليات - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>اتصل بنا</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white">دليل الفعاليات</a>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">الفعاليات</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">عن الدليل</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <h2 class="section-title">اتصل بنا</h2>
+
+        <div id="msg"></div>
+
+        <form onsubmit="return validateForm()">
+
+            <input type="text" class="form-control mb-3" placeholder="الاسم" required>
+
+            <input type="email" id="email" class="form-control mb-3" placeholder="البريد" required>
+
+            <textarea class="form-control mb-3" placeholder="الرسالة"></textarea>
+
+            <button class="btn btn-primary">إرسال</button>
+
+        </form>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <p>© 2026 دليل الفعاليات - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>تفاصيل الفعالية</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold text-white">
+دليل الفعاليات
+</a>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">الرئيسية</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">الفعاليات</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">عن الدليل</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">اتصل بنا</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+
+        <h2 id="eventTitle"></h2>
+
+        <img id="eventImage" class="img-fluid rounded shadow" style="max-height:500px;width:100%;object-fit:cover;">
+
+        <p class="mt-4 fs-5" id="eventDesc"></p>
+
+        <p>
+            <strong>التاريخ:</strong>
+            <span id="eventDate"></span>
+        </p>
+
+        <p>
+            <strong>المكان:</strong>
+            <span id="eventPlace"></span>
+        </p>
+
+        <button class="btn btn-success">
+أضف للتقويم
+</button>
+
+        <button class="btn btn-primary">
+مشاركة
+</button>
+
+    </div>
+
+
+
+    <footer class="footer mt-5">
+        <p>
+            © 2026 دليل الفعاليات - جميع الحقوق محفوظة
+        </p>
+    </footer>
+
+
+    <script>
+        const eventsData = {
+
+            1: {
+                title: "حفلة موسيقية",
+                image: "images/10614246f1bcf71fbe62d74bfe9c685e.jpg",
+                desc: "حفلة موسيقية رائعة تضم أشهر الفنانين.",
+                date: "15 سبتمبر 2026",
+                place: "دار الأوبرا دمشق"
+            },
+
+            2: {
+                title: "فعالية جري رياضية",
+                image: "images/c6b2e3a74394149cf347ab7c251890de.jpg",
+                desc: "قبل بزوغ الفجر، بدأت الحشود تتوافد نحو خط البداية. الهواء المنعش يمتزج بحماس العدائين الذين يرتدون قمصانهم الملونة وأرقامهم التعريفية. المشهد كان لوحة من الحركة والنشاط؛ آلاف الخطوات المتسارعة، وأنفاس منتظمة، وهتافات المشجعين التي تملأ جنبات الطريق لتشجيع المحترفين والهواة على حد سواء.",
+                date: "20 مايو 2026",
+                place: "حلب ملعب الجلاء"
+            },
+
+            3: {
+                title: "مهرجان ثقافي",
+                image: "images/image22.jpg",
+                desc: "حولت ساحة المدينة الكبرى إلى لوحة فنية نابضة بالحياة، حيث اختلطت روائح البخور والقهوة العربية التقليدية بأنغام الموسيقى الفلكلورية. الأكشاك الخشبية المزينة بالأعلام والزخارف التراثية اصطفت لتستقبل الزوار بابتسامة، في أجواء عائلية غلب عليها الفضول وحب الاستكشاف.",
+                date: "1 يونيو 2026",
+                place: "حمص معهد الغسانية"
+            },
+
+            4: {
+                title: "مباراة كرة القدم",
+                image: "images/530360359_1187095550114592_1897296934935855138_n.jpg",
+                desc: "حت أضواء الكاشفة وفي ليلة صافية، احتضن الملعب مواجهة ودية اتسمت بالروح الرياضية العالية بعيداً عن ضغوط النقاط وحسابات التأهل. الحضور الجماهيري كان لافتاً، حيث امتلأت المدرجات بالعائلات والشباب الذين جاؤوا للاستمتاع بكرة قدم نقية وجميلة.",
+                date: "10 أكتوبر 2026",
+                place: "ملعب العباسيين دمشق"
+            },
+            5: {
+                title: "مسابقة برمجية",
+                image: "images/Untitled-E-games.jpg",
+                desc: "مسابقة على مستوى القطر لأختبار قدرات المبرمجين",
+                date: "10 يونيو 2026",
+                place: "دمشق الهمك"
+            },
+            6: {
+                title: "رحلة سياحية",
+                image: "mages/tourist.jpg",
+                desc: "رحلة سياحية استكشافية مليئة بالمغامرات، تنقلك بين طبيعة خلابة وتضاريس متنوعة، من الجبال والوديان إلى الغابات والشواطئ. تعيش فيها تجارب حماسية مثل المشي لمسافات طويلة، التسلق، واكتشاف أماكن مخفية، مع لحظات هدوء تأخذك بعيدًا عن الروتين وتقرّبك من جمال العالم. ",
+                date: "10 اغسطس 2026",
+                place: "لبنان alley"
+            }
+
+        };
+
+
+        const params =
+            new URLSearchParams(window.location.search);
+
+        const id = params.get("id");
+
+
+        if (eventsData[id]) {
+
+            document.getElementById("eventTitle").innerText =
+                eventsData[id].title;
+
+            document.getElementById("eventImage").src =
+                eventsData[id].image;
+
+            document.getElementById("eventDesc").innerText =
+                eventsData[id].desc;
+
+            document.getElementById("eventDate").innerText =
+                eventsData[id].date;
+
+            document.getElementById("eventPlace").innerText =
+                eventsData[id].place;
+
+        } else {
+
+            document.getElementById("eventTitle").innerText =
+                "الفعالية غير موجودة";
+
+        }
+    </script>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>الفعاليات</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+        .navbar {
+            background-color: #343a40;
+        }
+        
+        .nav-link {
+            color: white !important;
+        }
+        
+        .section-title {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        
+        img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white">دليل الفعاليات</a>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html">الفعاليات</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">عن الدليل</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container mt-5">
+
+        <h2 class="section-title">كل الفعاليات</h2>
+
+        <!-- Search -->
+        <input type="text" id="search" class="form-control mb-4" placeholder="ابحث عن فعالية">
+
+        <div class="row">
+
+            <!-- Event 1 -->
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <img src="images/10614246f1bcf71fbe62d74bfe9c685e.jpg">
+                    <div class="card-body">
+                        <h5 class="event-title">حفلة كلاسيكية موسيقية</h5>
+                        <p>حفلة رائعة</p>
+                        <a href="event.html?id=1" class="btn btn-primary">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 2 -->
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <img src="images/c6b2e3a74394149cf347ab7c251890de.jpg">
+                    <div class="card-body">
+                        <h5 class="event-title">ماراثون</h5>
+                        <p>مسابقة سنوية</p>
+                        <a href="event.html?id=2" class="btn btn-primary">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 3 -->
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <img src="images/image22.jpg">
+                    <div class="card-body">
+                        <h5 class="event-title">حدث ثقافي</h5>
+                        <p>معرض الكتاب</p>
+                        <a href="event.html?id=3" class="btn btn-primary">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 4 -->
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <img src="images/530360359_1187095550114592_1897296934935855138_n.jpg">
+                    <div class="card-body">
+                        <h5 class="event-title">مباراة كرة قدم</h5>
+                        <p>مباراة رائعة</p>
+                        <a href="event.html?id=4" class="btn btn-primary">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 5 -->
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <img src="images/Untitled-E-games.jpg">
+                    <div class="card-body">
+                        <h5 class="event-title">مسابقة معلوماتية</h5>
+                        <p>أولمبياد سنوية</p>
+                        <a href="event.html?id=5" class="btn btn-primary">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event 6 -->
+            <div class="col-md-4 event-card">
+                <div class="card">
+                    <img src="images/1.jpg">
+                    <div class="card-body">
+                        <h5 class="event-title">حدث سياحي</h5>
+                        <p>رحلة استكشافية</p>
+                        <a href="event.html?id=6" class="btn btn-primary">التفاصيل</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <p>© 2026 دليل الفعاليات - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <!-- JS -->
+    <script>
+        document.getElementById("search").addEventListener("keyup", function() {
+
+            let searchValue = this.value.toLowerCase();
+
+            let events = document.querySelectorAll(".event-card");
+
+            events.forEach(function(event) {
+
+                let text = event.textContent.toLowerCase();
+
+                if (text.includes(searchValue)) {
+                    event.style.display = "block";
+                } else {
+                    event.style.display = "none";
+                }
+
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
